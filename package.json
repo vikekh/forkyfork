@@ -1,0 +1,36 @@
+{
+  "name": "forkyfork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "method-override": "^2.3.10",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "mocha": "^4.0.1",
+    "morgan": "^1.9.0",
+    "webpack-node-externals": "^1.6.0",
+    "webpack-stream": "^4.0.0"
+  }
+}
